@@ -1,0 +1,4 @@
+name: proxy-teleport-fallback
+version: '${project.version}'
+main: me.syncwrld.proxyteleport.spigot.ProxyTeleportSpigot
+api-version: '1.20'

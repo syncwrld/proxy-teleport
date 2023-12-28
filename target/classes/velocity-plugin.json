@@ -1,0 +1,1 @@
+{"id":"proxy-teleport","name":"Proxy Teleport","version":"${project.version}","url":"https://github.com/syncwrld/proxy-teleport","authors":["syncwrld"],"dependencies":[],"main":"me.syncwrld.proxyteleport.velocity.ProxyTeleportVelocity"}
