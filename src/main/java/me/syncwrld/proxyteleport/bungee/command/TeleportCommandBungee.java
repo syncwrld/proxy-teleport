@@ -7,6 +7,8 @@ import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.api.connection.Server;
 import net.md_5.bungee.api.plugin.Command;
 
+import java.util.concurrent.TimeUnit;
+
 import static org.bukkit.Bukkit.getPlayer;
 
 public class TeleportCommandBungee extends Command {
@@ -51,7 +53,13 @@ public class TeleportCommandBungee extends Command {
                 .build();
 
         player.connect(request);
+        player.sendMessage("§7Teleporting to " + target.getName() + "...");
 
+        this.plugin.getProxy().getScheduler().schedule(
+                this.plugin, () -> {
+                    this.plugin.getMessenger().sendTeleportMessage(player, target);
+                }, 2, TimeUnit.SECONDS
+        );
     }
 
     @Override

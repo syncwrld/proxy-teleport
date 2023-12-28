@@ -7,11 +7,10 @@ import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.util.Map;
-import java.util.Optional;
 
 public class BungeecordMessenger {
 
-    private final String channelID = (Constants.CHANNEL_IDENTIFIER);
+    private final String channelID = Constants.CHANNEL_IDENTIFIER;
 
     public void sendMessage(ProxiedPlayer player, String message) {
         ByteArrayOutputStream byteArrayOut = new ByteArrayOutputStream();
@@ -28,7 +27,7 @@ public class BungeecordMessenger {
     public void sendTeleportMessage(ProxiedPlayer from, ProxiedPlayer target) {
         Map<String, Object> messageMap = Maps.newConcurrentMap();
         messageMap.put("action", "teleport");
-        messageMap.put("teleported",from.getName());
+        messageMap.put("teleported", from.getName());
         messageMap.put("target", target.getName());
 
         this.sendMessage(from, Constants.GSON.toJson(messageMap));
