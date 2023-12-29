@@ -1,7 +1,9 @@
-C:\Users\isaac\IdeaProjects\proxy-teleport\src\main\java\me\syncwrld\proxyteleport\common\BukkitMessenger.java
 C:\Users\isaac\IdeaProjects\proxy-teleport\src\main\java\me\syncwrld\proxyteleport\common\VelocityMessenger.java
+C:\Users\isaac\IdeaProjects\proxy-teleport\src\main\java\me\syncwrld\proxyteleport\bungee\command\TeleportCommandBungee.java
 C:\Users\isaac\IdeaProjects\proxy-teleport\src\main\java\me\syncwrld\proxyteleport\common\Constants.java
 C:\Users\isaac\IdeaProjects\proxy-teleport\src\main\java\me\syncwrld\proxyteleport\spigot\ProxyTeleportSpigot.java
 C:\Users\isaac\IdeaProjects\proxy-teleport\src\main\java\me\syncwrld\proxyteleport\velocity\command\TeleportCommandVelocity.java
+C:\Users\isaac\IdeaProjects\proxy-teleport\src\main\java\me\syncwrld\proxyteleport\common\BungeecordMessenger.java
 C:\Users\isaac\IdeaProjects\proxy-teleport\src\main\java\me\syncwrld\proxyteleport\velocity\ProxyTeleportVelocity.java
+C:\Users\isaac\IdeaProjects\proxy-teleport\src\main\java\me\syncwrld\proxyteleport\bungee\ProxyTeleportBungee.java
 C:\Users\isaac\IdeaProjects\proxy-teleport\src\main\java\me\syncwrld\proxyteleport\spigot\listener\SpigotMessageListener.java

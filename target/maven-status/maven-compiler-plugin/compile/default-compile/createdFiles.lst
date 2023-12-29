@@ -1,7 +1,9 @@
+me\syncwrld\proxyteleport\bungee\ProxyTeleportBungee.class
 me\syncwrld\proxyteleport\common\VelocityMessenger.class
+me\syncwrld\proxyteleport\common\BungeecordMessenger.class
+me\syncwrld\proxyteleport\bungee\command\TeleportCommandBungee.class
 me\syncwrld\proxyteleport\velocity\command\TeleportCommandVelocity.class
 me\syncwrld\proxyteleport\common\Constants.class
-me\syncwrld\proxyteleport\common\BukkitMessenger.class
 velocity-plugin.json
 me\syncwrld\proxyteleport\spigot\listener\SpigotMessageListener.class
 me\syncwrld\proxyteleport\spigot\ProxyTeleportSpigot.class
