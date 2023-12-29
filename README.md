@@ -6,5 +6,5 @@ A Lightweight Minecraft Server Plugin that allows teleportation between multiple
 - Spigot, Paper, Purpur or similars Server (Java 17+)
 
 ## Usage
-Put the JAR in all servers (proxy - velocity or bungeecord - and backend - like spigot and paper servers) and restart.
-Command: `/teleport [player]`, the command permission is `proxyteleport.teleport` for Bungeecord and `proxy-teleport.teleport` for Velocity. The command have auto-complete to help you.
+Download `proxy-teleport.jar` from [releases](https://github.com/syncwrld/proxy-teleport/releases/), put the file in your proxy and spigot plugins folder servers. Restart all and use.
+ - Command: /teleport [player] - permission: `proxyteleport.teleport` for Bungeecord and `proxy-teleport.teleport` for Velocity. The command have auto-complete to help you.
