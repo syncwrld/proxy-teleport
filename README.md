@@ -7,4 +7,4 @@ A Lightweight Minecraft Server Plugin that allows teleportation between multiple
 
 ## Usage
 Put the JAR in all servers (proxy - velocity or bungeecord - and backend - like spigot and paper servers) and restart.
-Command? /teleport [player], the command permission is `proxyteleport.teleport`. The command have auto-complete to help you.
+Command: `/teleport [player]`, the command permission is `proxyteleport.teleport`. The command have auto-complete to help you.
